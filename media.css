@@ -1,0 +1,84 @@
+/* ---------- Small screens: up to 680px ---------- */
+@media (max-width: 680px) {
+  section {
+    height: auto;
+    padding: 1rem 2rem;
+  }
+  .label, .subtext {
+    font-size: 12px;
+  }
+  .head {
+    font-size: 36px;
+  }
+
+  #profile .hero {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  #profile img {
+    width: 170px;
+    height: 170px;
+    border-radius: 10%;
+  }
+
+  #resume .hero,
+  #skills .hero,
+  #projects .hero {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .proj-inner-box {
+    height: 400px;
+  }
+
+  #contact {
+    height: 60vh;
+  }
+  #contact svg {
+    width: 45px;
+    height: 45px;
+  }
+  .contact-logo-box {
+    gap: 1.5rem;
+  }
+  #footer {
+    padding-bottom: 1rem;
+  }
+}
+
+/* ---------- Medium screens: 681px - 999px ---------- */
+@media (min-width: 681px) and (max-width: 999px) {
+  section {
+    height: auto;
+    padding: 2rem 3rem;
+  }
+  .label, .subtext {
+    font-size: 16px;
+  }
+  .head {
+    font-size: 40px;
+  }
+
+  #profile img {
+    margin-top: 6rem;
+    height: 400px;
+  }
+
+  /* #projects .hero {
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: space-around;
+  } */
+
+  #contact {
+    height: 60vh;
+  }
+  #contact svg {
+    width: 60px;
+    height: 60px;
+  }
+  .contact-logo-box {
+    gap: 2rem;
+  }
+}
